@@ -54,6 +54,7 @@ const data = [
 
 const Portfolio = () => {
     return(
+
         <section id='portfolio'>
             <h5>My Recent Work</h5>
             <h2>Portfolio</h2>
@@ -62,7 +63,7 @@ const Portfolio = () => {
                 {
                     data.map(({id, image, title, github, demo}) =>{
                         return (
-                         <article key={id} className="portfolio__item">
+                         <article key={id} className="portfolio__item" >
                              <div className="portfolio__item-image">
                                  <img src={image} alt={title}/>
                              </div>
@@ -78,7 +79,9 @@ const Portfolio = () => {
 
             </div>
         </section>
+
     )
 }
+
 
 export default Portfolio

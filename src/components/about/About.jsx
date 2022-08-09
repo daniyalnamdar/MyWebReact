@@ -21,25 +21,28 @@ const About = () => {
                         <article className="about__card">
                             <FaAward className="about__icon"/>
                             <h5>Education</h5>
-                            <small>Graduated Electrical Engineering</small>
+                            <small>Master of Science Electrical and Electronic Engineering</small>
                         </article>
                         <article className="about__card">
                             <FiUsers className="about__icon"/>
                             <h5>Research</h5>
-                            <small>Stability and well-posedness of conewise linear system</small>
+                            <small>Control Systems </small>
+                            <small>Machine Learning Application<br/></small>
+                            <small> Web Development </small>
+
                         </article>
                         <article className="about__card">
                             <FaUniversity className="about__icon"/>
-                            <h5>Teaching Assistance or hobbies</h5>
+                            <h5>Research and Teaching Assistance</h5>
                             <small>+3 years</small>
                         </article>
                     </div>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since
-                        the 1500s, when an unknown printer took a galley of type and scrambled it
-                        to make a type specimen book. It has survived not only five centuries, but
-                        also the leap into electronic typesetting, remaining essentially unchanged.
+                        I have a Master's in Electrical and Electronic Engineering, and some of the broad areas I
+                        know about include control systems and employing PSCAD to model wind turbine failures.
+                        I currently work as a web developer in a field different to my academic background, which has
+                        given me fresh perspectives and motivation.
+                        Since I believe that nothing in this world is static, I always attempt to adapt and learn new things.
                     </p>
                     <a href="#contact" className="btn btn-primary">Let's Talk</a>
                 </div>
